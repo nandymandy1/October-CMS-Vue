@@ -1,0 +1,10 @@
+name: Dates
+form: $/nandy/vuerentacar/models/date/fields.yaml
+modelClass: Nandy\Vuerentacar\Models\Date
+defaultRedirect: nandy/vuerentacar/dates
+create:
+    redirect: 'nandy/vuerentacar/dates/update/:id'
+    redirectClose: nandy/vuerentacar/dates
+update:
+    redirect: nandy/vuerentacar/dates
+    redirectClose: nandy/vuerentacar/dates

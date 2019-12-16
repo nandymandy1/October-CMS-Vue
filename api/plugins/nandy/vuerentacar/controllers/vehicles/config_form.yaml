@@ -1,0 +1,10 @@
+name: Vehicles
+form: $/nandy/vuerentacar/models/vehicle/fields.yaml
+modelClass: Nandy\Vuerentacar\Models\Vehicle
+defaultRedirect: nandy/vuerentacar/vehicles
+create:
+    redirect: 'nandy/vuerentacar/vehicles/update/:id'
+    redirectClose: nandy/vuerentacar/vehicles
+update:
+    redirect: nandy/vuerentacar/vehicles
+    redirectClose: nandy/vuerentacar/vehicles

@@ -1,0 +1,12 @@
+list: $/nandy/vuerentacar/models/location/columns.yaml
+modelClass: Nandy\Vuerentacar\Models\Location
+title: Locations
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'nandy/vuerentacar/locations/update/:id'

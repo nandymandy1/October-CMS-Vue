@@ -1,0 +1,10 @@
+name: Locations
+form: $/nandy/vuerentacar/models/location/fields.yaml
+modelClass: Nandy\Vuerentacar\Models\Location
+defaultRedirect: nandy/vuerentacar/locations
+create:
+    redirect: 'nandy/vuerentacar/locations/update/:id'
+    redirectClose: nandy/vuerentacar/locations
+update:
+    redirect: nandy/vuerentacar/locations
+    redirectClose: nandy/vuerentacar/locations
